@@ -1,5 +1,6 @@
-<!DOCTYPE html><!--Segunda Plano-->
+<!DOCTYPE html><!--Palavra da segunda-feira Plano-->
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -9,13 +10,15 @@
     <link rel="stylesheet" href="src/css/variables.css">
     <link rel="stylesheet" href="src/css/style.css">
 </head>
+
 <body>
     <header class="cabecalho">
-        <h1>Clone Yu-Gi-Oh!</h1>
+        <h1 class="titulo">Clone Yu-Gi-Oh!</h1>
     </header>
     <main class="slider">
-        <button class="btn-seta btn-voltar"></button>
-        <img src="src/images/seta.png" alt="seta voltar">
+        <button class="btn-seta btn-voltar" id="btn-voltar">
+        <img src="src/images/seta.png" alt="seta voltar" />
+        </button>
 
         <ul class="lista-personagens">
             <li class="cartao fundo-1 selecionado">
@@ -31,13 +34,42 @@
                     <span class="estrela"></span>
                 </div>
 
-                <img src="src/images/cosmos-sentinel.png" alt="Cosmos Sentinel, o Guardião Galático" class="imagem-carta">
+                <img src="src/images/cosmos-sentinel.png" alt="Cosmos Sentinel, o Guardião Galático"
+                    class="imagem-carta">
 
-                    <div class="informacoes">
-                         <p class="descricao">Este imponete guerreiro cibernético é a personificação da hamonia entre tecnologia avançada e energia cósmica. Empunhado o Cetro Estelar, Cosmos Sentinel pode manipular o espaço-tempo, anulando ataques e fortalecendo aliados</p>
+                <div class="informacoes">
+                    <p class="descricao">Este imponete guerreiro cibernético é a personificação da hamonia entre
+                        tecnologia avançada e energia cósmica. Empunhado o Cetro Estelar, Cosmos Sentinel pode manipular
+                        o espaço-tempo, anulando ataques e fortalecendo aliados</p>
                     <div class="informacoes-ataque">
                         <span>ATK/ 2800</span>
                         <span>DEF/ 2500</span>
+                    </div>
+                </div>
+            </li>
+            <li class="cartao fundo-2">
+                <div class="carta-virada"></div>
+
+                <h2 class="nome">Nebuladragon, o Ser das Estrelas Eternas</h2>
+
+                <div class="nivel-carta">
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                    <span class="estrela"></span>
+                </div>
+
+                <img src="src/images/nebuladragon.png" alt="Nebuladragon, o Ser das Estrelas Eternas"
+                    class="imagem-carta">
+
+                <div class="informacoes">
+                    <p class="descricao">Uma Criatura mítica nascida da fusão de nebulosas e energia estelar. Com suas escamas cristalinas, Nebuladragon canalisa o poder do cosmos, devastando seus inimigos com rajadas de energia pura. Diz-se que ele aparece apenas em momentos de caos universal, como arauto de renovação e equilibrio celestial.</p>
+                    <div class="informacoes-ataque">
+                        <span>ATK/ 3200</span>
+                        <span>DEF/ 2000</span>
                     </div>
                 </div>
             </li>
@@ -48,4 +80,5 @@
         </button>
     </main>
 </body>
+
 </html>
